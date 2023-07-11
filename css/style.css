@@ -164,12 +164,20 @@ main {
     flex-direction: column;
     margin-top: 40px;
     height: 100vh;
-    overflow-x: hidden;
+
+}
+.projects{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 
 }
 .item{
-    width: 200px;
+    width: 300px;
     height: 400px;
+    margin: 0 20px;
 }
 .item img{
     width: 300px;
